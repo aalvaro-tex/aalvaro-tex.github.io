@@ -102,6 +102,10 @@ a:link, a:visited, a:hover, a:active {
     flex-direction: row;
 }
 
+.logo{
+    width:40px;
+    margin-left:10px;
+}
 @keyframes rotate {
 
     0%,
