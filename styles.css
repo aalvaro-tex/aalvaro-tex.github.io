@@ -168,4 +168,10 @@ a:active {
     .contains-graduate-info{
         width: 300px;
     }
+    .carousel{
+        font-size: 50px;
+    }
+    .contains-graduate-info{
+        margin-top: 200px;
+    }
 }
