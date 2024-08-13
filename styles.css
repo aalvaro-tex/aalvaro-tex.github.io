@@ -3,19 +3,15 @@
 body {
     background: rgba(255, 255, 255, 0);
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .frame {
-   top:50%;
-   left:20%;
-    position: absolute;
-    width: 95%;
-    height: 200px;
-    margin-top: -200px;
-    margin-left: -200px;
     border-radius: 10px;
-    overflow: hidden; 
-    background:  rgba(255, 255, 255, 0);
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0);
     color: #333;
     border-radius: 10px;
 }
@@ -23,7 +19,7 @@ body {
 .center {
     position: absolute;
     border-radius: 5px;
-    top: 40%;
+    top: 30%;
     left: 0;
     right: 0;
     margin-top: -20px;
@@ -67,45 +63,43 @@ body {
     display: block;
 }
 
-.contains-graduate-info{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.contains-graduate-info {
+    align-self: center;
+    margin-top:300px;
+    width: 600px;
     font-size: 30px;
     color: black;
     text-align: center;
 }
 
-.contains-info{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.contains-info {
+    margin-top: 30px;
     font-size: 20px;
     color: black;
     text-align: center;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
     text-decoration: none;
-    color:blue
+    color: blue
 }
 
-.contains-rrss{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.contains-rrss {
+    align-self: center;
+    margin-top: 20px;
     font-size: 20px;
     display: flex;
     flex-direction: row;
 }
 
-.logo{
-    width:40px;
-    margin-left:10px;
+.logo {
+    width: 40px;
+    margin-left: 10px;
 }
+
 @keyframes rotate {
 
     0%,
@@ -143,27 +137,27 @@ a:link, a:visited, a:hover, a:active {
     55% {
         transform: translateY(-720px);
     }
-    
+
     56%,
     63% {
         transform: translateY(-840px);
     }
-    
+
     64%,
     71% {
         transform: translateY(-960px);
     }
-    
+
     72%,
     79% {
         transform: translateY(-1080px);
     }
-    
+
     80%,
     87% {
         transform: translateY(-1200px);
     }
-    
+
     88%,
     95% {
         transform: translateY(-1320px);
