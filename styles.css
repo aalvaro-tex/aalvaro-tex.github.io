@@ -163,3 +163,9 @@ a:active {
         transform: translateY(-1320px);
     }
 }
+
+@media screen and (max-width:600px) {
+    .contains-graduate-info{
+        width: 300px;
+    }
+}
