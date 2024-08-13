@@ -164,7 +164,7 @@ a:active {
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .contains-graduate-info{
         width: 300px;
     }
