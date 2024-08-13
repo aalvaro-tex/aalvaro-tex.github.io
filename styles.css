@@ -28,6 +28,7 @@ body {
 }
 
 .carousel {
+    margin-left: 20px;
     position: relative;
     width: 100%;
     text-align: center;
@@ -171,7 +172,6 @@ a:active {
     }
     .carousel{
         font-size: 50px;
-        margin-left:100px;
     }
     .contains-graduate-info{
         margin-top: 300px;
