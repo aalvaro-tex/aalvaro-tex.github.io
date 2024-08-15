@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="service.js"></script>
     <link rel="icon" type="image/x-icon" href="/images/logo-recortado.png">
     <title>aalvaro.tex</title>
 
@@ -14,7 +15,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body onload="localStorage.clear()">
     <div class="frame">
         <div class="center">
             <div class="carousel">
@@ -51,7 +52,7 @@
         <a href="https://github.com/aalvaro-tex"><img src="/images/git-logo.png" class="logo" ></a>
         <a href="https://www.linkedin.com/in/alvaro-gobernado-garrido-a96580100/"><img src="/images/lnkedin-logo.png" class="logo"></a>
         <a href="https://www.amazon.es/s/ref=dp_byline_sr_book_1?ie=UTF8&field-author=%C3%81lvaro+Gobernado+Garrido&search-alias=stripbooks"><img src="/images/logo-amazon.png" id="logo-amazon"></a>
-        <a href=""><img src="/images/logo-only.png" id="logo-only"></a>
+        <img src="/images/logo-only.png" id="logo-only" onclick="onOnlyFansClick()">
     </div>
 </body>
 
